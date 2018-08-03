@@ -20,7 +20,7 @@ var skipReq = 0;
 var skippers = [];
 var now_playing = [];
 
-const prefix = "R";
+const prefix = "r";
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -239,7 +239,7 @@ function isYoutube(str) {
 
 
 
-const adminprefix = "R";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const adminprefix = "r";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 const devs = ['300572903068663818'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
